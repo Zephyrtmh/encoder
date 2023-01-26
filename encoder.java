@@ -69,7 +69,7 @@ public class Encoder {
 
         ArrayList<String> decodedTextList = new ArrayList<String>();
         //split string to ArrayList to iterate over
-        ArrayList<String> plainTextList = new ArrayList<String>(Arrays.asList(plainText.split("", 0)));
+        ArrayList<String> plainTextList = new ArrayList<String>(Arrays.asList(encodedText.split("", 0)));
 
         // map decoded string based on original table
         for (int i=0; i<plainTextList.size(); i++) {
